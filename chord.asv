@@ -117,8 +117,8 @@ end
 function[]=disp(source,event,pic)
     figure
     if pic==1
-        trebleA=imread("C:\Users\reich\Desktop\UNL 2020-2021\Computer Science\noteA"); %reads the image from my computer
-        imshow(trebleA,[.2 .6]) %displays the image saved in the variable
+        trebleA=imread("C:\Users\reich\Desktop\UNL 2020-2021\Computer Science\noteA"); %rea
+        imshow(trebleA,[.2 .6])
         reset
     elseif pic==2
         trebleB=imread("C:\Users\reich\Desktop\UNL 2020-2021\Computer Science\noteB.png");
@@ -157,8 +157,8 @@ function[]=reset(source,event)
     chord.noteFToggle.Value=0;
     chord.noteGToggle.Value=0;
     
-    chord.noteARadio.Value=0; %resets the radio button value to off to be
-    chord.noteBRadio.Value=0; %pushed again
+    chord.noteARadio.Value=0;
+    chord.noteBRadio.Value=0;
     chord.noteCRadio.Value=0;
     chord.noteDRadio.Value=0;
     chord.noteERadio.Value=0;

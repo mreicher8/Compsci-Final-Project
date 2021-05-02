@@ -176,7 +176,7 @@ function[]=makeChord(note1,note2)
         msgbox('This chord is called a Third. These notes are three spots away from each other. Thirds are commonly used in harmonizing, and are easily heard because of how nicely the frequencies of the notes line up. A famous example of a third is the song "When the Saints go Marching In.','modal');
         reset
     elseif note1==1&&note2==4
-        msgbox('This chord is called a Fourth. These notes are four spots away from each other. A few famous examples of fourths are the beginnings of "Here Comes the Bride" and "Amazing Grace.','modal');
+        msgbox('This chord is called a Fourth. These notes are four spots away from each other. They are found in many chords and often serve as a basis for tuning. A few famous examples of fourths are the beginnings of "Here Comes the Bride" and "Amazing Grace.','modal');
         reset
     elseif note1==1&&note2==5
         msgbox('This chord is called a Fifth. These notes are five spots away from each other. Fifths are commonly recognized because the frequency of how "in tune" the notes are. A few famous examples of fifths are the beginning two notes of "Twinkle Twinkle Little Star" and "The ABC Song" (which, I might add, are the same song).','modal');
@@ -185,7 +185,7 @@ function[]=makeChord(note1,note2)
         msgbox('This chord is called a Sixth. Sixths are not quite as recognizable as Fifths or Thirds but are still important in building chords. A famous example of a sixth is in the the first two notes of the song "My Bonnie Lies Over the Ocean".','modal');
         reset
     elseif note1==1&&note2==7
-        msgbox('This chord is called a Seventh. A famous example of a seventh is in the beginning of the chorus of the song "Take On Me" by A-ha.','modal');
+        msgbox('This chord is called a Seventh. Sevenths are not commonly used because of how the frequencies do not line up and often clash. A famous example of a seventh is in the beginning of the chorus of the song "Take On Me" by A-ha.','modal');
         reset
     else
         msgbox('Please choose another note','modal'); %insurance in case all else fails
